@@ -1,0 +1,40 @@
+{
+  "name": "websitevsclazyloadembeddedyoutube",
+  "version": "1.0.0",
+  "description": "lazy load embedded youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pugtohtml": "pug --output-style compressed -o dist/ assets/pug/index.pug",
+    "build": "npm run pugtohtml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Steven-VI/WebsiteVSCLazyLoadEmbeddedYoutube.git"
+  },
+  "keywords": [
+    "lazy",
+    "load",
+    "youtube"
+  ],
+  "author": "SVI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Steven-VI/WebsiteVSCLazyLoadEmbeddedYoutube/issues"
+  },
+  "homepage": "https://github.com/Steven-VI/WebsiteVSCLazyLoadEmbeddedYoutube#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "jade": "^1.11.0",
+    "stylus": "^0.54.7",
+    "pug": "^2.0.4",
+    "pug-cli":"^1.0.0-alpha6"
+  },
+  "devDependencies": {
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "pug-cli":"^1.0.0-alpha6"
+  }
+}
